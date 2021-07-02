@@ -7,7 +7,7 @@
 ================================================== */
 
 body{
-	background-color: rgb(241, 241, 241);
+	background-color: rgb(248, 248, 248);
  
 }
 ::selection {
@@ -577,8 +577,9 @@ margin-top: 1em;
 		flex: 40%;
 		margin: auto;
 		padding: 2em;
-		background-color: #f3fcff;
+		background-color: #f3fcffc4;
 		border-radius: .4em;
+		color: #000;
 	}
 
 	
@@ -663,7 +664,7 @@ margin-top: 1em;
 
 
 .explore__photo-1:hover {
-    outline: 1rem solid #55c57a;
+    outline: 1rem solid #26386A;
     transform: scale(1.2) translateY(-.5rem);
     box-shadow: 0 2.5rem 4rem rgba(black, .5);
     z-index: 20;
@@ -674,7 +675,7 @@ margin-top: 1em;
 
 
 .explore__photo-2:hover { 
-    outline: 1rem solid #55c57a;
+    outline: 1rem solid #26386A;
     transform: scale(1.2) translateY(-.5rem);
     box-shadow: 0 2.5rem 4rem rgba(black, .5);
     z-index: 20;
@@ -685,7 +686,7 @@ margin-top: 1em;
 
 
 .explore__photo-3:hover {
-    outline: 1rem solid #55c57a;
+    outline: 1rem solid #26386A;
     transform: scale(1.2) tran slateY(-.5rem);
     box-shadow: 0 2.5rem 4rem rgba(black, .5);
     z-index: 20;
@@ -713,7 +714,7 @@ margin-top: 1em;
 		flex: 90%;
 		margin: auto;
 		padding: 2em;
-		background-color: #b4caf3d7;
+		background-color: #b4caf300;
 	}
 
 	.explore__photo {
@@ -828,3 +829,17 @@ position: relative;
 	background-color: rgb(255, 218, 8);
 
   }
+
+  .para1{
+	  background-color: #f3fcff;
+	  flex: 50%;
+	  padding: 1em;
+  }
+
+  .ship{
+	  background-image: url("../assets/intro1.png");
+	  background-size: cover;
+	  height: 600px;
+  }
+
+  

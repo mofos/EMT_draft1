@@ -1,0 +1,15 @@
+@media  only screen and (max-width: 600px) {
+  .ship{
+	  z-index: -10;
+	  position: relative;
+	  left: -10%;
+	  width: 100%;
+      flex: 30%;
+  }
+  .para1{
+	  background-color: #cae1ff70;
+	  flex: 100%;
+  }
+
+  
+}
