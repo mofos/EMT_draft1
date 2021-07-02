@@ -108,10 +108,10 @@ body{
     transition: all 200ms linear;
 }
 .nav-item:hover .nav-link{
-	color: #8167a9 !important;
+	color: #ffd000 !important;
 }
 .nav-item.active .nav-link{
-	color: #777 !important;
+	color: rgb(255, 166, 0) !important;
 }
 .nav-link {
 	position: relative;
@@ -125,7 +125,7 @@ body{
 	width: 100%;
 	height: 2px;
 	content: '';
-	background-color: #8167a9;
+	background-color: #a97c67;
 	opacity: 0;
     transition: all 200ms linear;
 }
@@ -152,24 +152,21 @@ body{
     position: relative;
 	width: 100%;
 	display: block;
-	padding-top: 26em;
+	padding-top: 10em;
 	
 	
 }
-.full-height {
-    height: 100vh;
-}
+
 .over-hide {
     overflow: hidden;
 }
 .absolute-center {
-	position: absolute;
-	top: 10%;
-	left: 0;
+	
+
 	width: 100%;
-	height: 800px;
-  margin-top: 40px;
-	transform: translateY(-50%);
+	height: 600px;
+  margin-top: 90px;
+	transform: translateY(-40%);
 	z-index: 20;
 	background-image: url("../assets/hero.png");
 	background-size: cover;
@@ -454,7 +451,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @media (max-width: 767px) { 
 	h1{
-		font-size: 38px;
+		font-size: 58px;
 	}
 	.nav-item:after{
 		display: none;
@@ -531,3 +528,16 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 body.dark .logo img {
   filter: brightness(100%);
 }
+.intro1{
+    
+	background-color: #e8f1f483;
+	padding: 2em;
+	font-family: 'Antic Didone', serif;
+	border-radius: 1em;
+	margin: auto;
+	max-width: 800px;
+	}
+
+	.headinghero{
+		color: #000;
+		font-size: 2em
