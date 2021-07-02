@@ -7,10 +7,11 @@
 ================================================== */
 
 body{
+	background-color: rgb(241, 241, 241);
  
 }
 ::selection {
-	color: #fff;
+	color: rgb(255, 255, 255);
 	background-color: #8167a9;
 }
 ::-moz-selection {
@@ -530,13 +531,20 @@ body.dark .logo img {
 }
 .intro1{
     
-	background-color: #e8f1f483;
+	background-color: #f3fcff;
+	;
 	padding: 2em;
 	font-family: 'Antic Didone', serif;
-	border-radius: 1em;
+	border-radius: .4em;
 	margin: auto;
 	max-width: 1000px;
+	
 
+	}
+
+	.info{
+        position: relative;
+		top: -13em;
 	}
 
 	.headinghero{
@@ -569,7 +577,8 @@ margin-top: 1em;
 		flex: 40%;
 		margin: auto;
 		padding: 2em;
-		background-color: #b4caf3d7;
+		background-color: #f3fcff;
+		border-radius: .4em;
 	}
 
 	
@@ -591,20 +600,12 @@ margin-top: 1em;
 
 
 
-.explore__paragraph:not(:last-of-type){
-    margin-bottom: 2rem;
-}
+	
 
-.more {
-    text-decoration: none;
-    padding-left: .5rem;
 
-}
-.more:hover {
-    border-bottom: 1px solid #55c57a;
-    padding-bottom: .2rem;
-    cursor: pointer;
-}
+
+
+
 
 .explore__photo {
     width: 70%;
@@ -618,30 +619,7 @@ margin-top: 1em;
 
 
 }
-@media  only screen and (max-width: 966px) {
-    .photo {
-        
-        margin-top: 8rem;
 
-    }
-
-}
-
-@media  only screen and (max-width: 850px) {
-    .photo {
-        margin-top: 12rem;
-        
- 
-    }
-
-}
-
-@media only screen and (max-width:766px) {
-    .photo {
-        margin-top: 14rem;
-    }
-
-}
 
 
 .explore__photo-1 {
@@ -650,16 +628,17 @@ margin-top: 1em;
     top: -2rem;
     box-shadow: 0 1.5rem 4rem rgba(black, .4);
     transform: scale(1);
+
 }
 
 
 
 .explore__photo-2 { 
     position: absolute;
-    right: 0;
+    right: -7em;
     top: 9rem;
-	height: 300px;
-	background-size: cover;
+	
+
     box-shadow: 0 1.5rem 4rem rgba(black, .4);
     transform: scale(1)
 
@@ -671,7 +650,7 @@ margin-top: 1em;
 
 .explore__photo-3 {
     position: absolute;
-    left: 22%;
+    left: 2%;
     top: 20rem;
     box-shadow: 0 1.5rem 4rem rgba(black, .4);
     transform: scale(1)
@@ -685,7 +664,7 @@ margin-top: 1em;
 
 .explore__photo-1:hover {
     outline: 1rem solid #55c57a;
-    transform: scale(1.5) translateY(-.5rem);
+    transform: scale(1.2) translateY(-.5rem);
     box-shadow: 0 2.5rem 4rem rgba(black, .5);
     z-index: 20;
     transition: all .2s;
@@ -696,7 +675,7 @@ margin-top: 1em;
 
 .explore__photo-2:hover { 
     outline: 1rem solid #55c57a;
-    transform: scale(1.5) translateY(-.5rem);
+    transform: scale(1.2) translateY(-.5rem);
     box-shadow: 0 2.5rem 4rem rgba(black, .5);
     z-index: 20;
     transition: all .2s;
@@ -707,7 +686,7 @@ margin-top: 1em;
 
 .explore__photo-3:hover {
     outline: 1rem solid #55c57a;
-    transform: scale(1.5) tran slateY(-.5rem);
+    transform: scale(1.2) tran slateY(-.5rem);
     box-shadow: 0 2.5rem 4rem rgba(black, .5);
     z-index: 20;
     transition: all .2s;
@@ -719,3 +698,133 @@ margin-top: 1em;
     transform: scale(.95)
 }
 
+@media  only screen and (max-width: 600px) {
+    .explore__paragraph {
+        font-size: 1.4rem;
+        letter-spacing: 0rem;
+        display: block;
+
+
+        /* padding: 0; */
+        /* background-color: black;   */
+
+    }
+	.para{
+		flex: 90%;
+		margin: auto;
+		padding: 2em;
+		background-color: #b4caf3d7;
+	}
+
+	.explore__photo {
+		width: 150%;
+		border-radius: 2px;
+		position: static;
+		z-index: -10;
+		transition: all .2s;
+		outline-offset: 1rem;
+		box-shadow: 0 1.5rem 4rem rgba(black, .4);
+		bottom: 15em;
+		padding: 1em;
+	
+	
+	}
+
+	
+.explore__photo-1 {
+    position: relative;
+    left: 0;
+    top: 0rem;
+    box-shadow: 0 1.5rem 4rem rgba(black, .4);
+    transform: scale(1);
+
+}
+
+
+
+.explore__photo-2 { 
+    position: relative;
+    right: 0;
+    top: 0rem;
+	
+
+    box-shadow: 0 1.5rem 4rem rgba(black, .4);
+    transform: scale(1)
+
+}
+
+
+
+
+
+.explore__photo-3 {
+    position: relative;
+    left: 0%;
+    top: 0rem;
+    box-shadow: 0 1.5rem 4rem rgba(black, .4);
+    transform: scale(1)
+
+}
+
+
+    
+
+
+} 
+
+.grid1{
+    margin: auto;
+    max-width: 1000px;
+	padding: 2em;
+  }
+
+  .column {
+   
+    width: 33%;
+    padding: 10px 10px;
+  }
+  
+  .row {margin: auto;
+max-width: 1000px;
+position: relative;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 700px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+	justify-content: center;
+    background-color: #ffffff;
+    border-radius: 1em;
+	margin: auto;
+  }
+
+  .sevicesection{
+
+	color: #26386A;
+
+
+  }
+  .line{
+	height: 3px;
+	width: 100px;
+	background-color: rgb(255, 218, 8);
+
+  }
