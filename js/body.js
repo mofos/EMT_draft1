@@ -32,6 +32,109 @@
 				},1);
 			}
 	});	
+
+	$(document).ready(function(){
+		$('.carousel').slick({
+		  speed: 500,
+		  slidesToShow: 4,
+		  slidesToScroll: 1,
+		  autoplay: true,
+		  autoplaySpeed: 2000,
+		  dots:true,
+		  centerMode: true,
+		  responsive: [{
+			breakpoint: 1024,
+			settings: {
+			  slidesToShow: 3,
+			  slidesToScroll: 1,
+			  // centerMode: true,
+	  
+			}
+	  
+		  }, {
+			breakpoint: 800,
+			settings: {
+			  slidesToShow: 2,
+			  slidesToScroll: 2,
+			  dots: true,
+			  infinite: true,
+	  
+			}
+		  },  {
+			breakpoint: 480,
+			settings: {
+			  slidesToShow: 1,
+			  slidesToScroll: 1,
+			  dots: true,
+			  infinite: true,
+			  autoplay: true,
+			  autoplaySpeed: 2000,
+			}
+		  }]
+		});
+	  });
 	
 	
   })(jQuery);
+
+  jQuery(document).ready(function(){
+
+    jQuery('.dot-1, .card-2-pre').click(function(){
+        jQuery('.slider-card-1').css({"transform":"translateX(0%)"}).addClass('cuurent-act-card-border');
+        jQuery('.slider-card-2').css({"transform":"translateX(110%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.slider-card-3').css({"transform":"translateX(220%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.slider-card-4').css({"transform":"translateX(330%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.slider-card-5').css({"transform":"translateX(440%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.dot-1').addClass('cuurent-act-card');
+        jQuery('.dot-2, .dot-3, .dot-4, .dot-5').removeClass('cuurent-act-card');
+        jQuery('.card-1-disable, .card-1-nxt').css({"display":"block"});
+        jQuery('.card-2-pre, .card-2-nxt, .card-3-pre, .card-3-nxt, .card-4-pre, .card-4-nxt, .card-5-pre, .card-5-disable').css({"display":"none"});
+    });
+    jQuery('.dot-2, .card-3-pre, .card-1-nxt').click(function(){
+        jQuery('.slider-card-1').css({"transform":"translateX(-110%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.slider-card-2').css({"transform":"translateX(0%)"}).addClass('cuurent-act-card-border');
+        jQuery('.slider-card-3').css({"transform":"translateX(110%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.slider-card-4').css({"transform":"translateX(220%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.slider-card-5').css({"transform":"translateX(330%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.dot-2').addClass('cuurent-act-card');
+        jQuery('.dot-1, .dot-3, .dot-4, .dot-5').removeClass('cuurent-act-card');
+        jQuery('.card-2-nxt, .card-2-pre').css({"display":"block"});
+        jQuery('.card-1-nxt, .card-1-disable, .card-3-pre, .card-3-nxt, .card-4-pre, .card-4-nxt, .card-5-pre, .card-5-disable').css({"display":"none"});
+    });
+    jQuery('.dot-3, .card-2-nxt, .card-4-pre').click(function(){
+        jQuery('.slider-card-1').css({"transform":"translateX(-220%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.slider-card-2').css({"transform":"translateX(-110%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.slider-card-3').css({"transform":"translateX(0%)"}).addClass('cuurent-act-card-border');
+        jQuery('.slider-card-4').css({"transform":"translateX(110%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.slider-card-5').css({"transform":"translateX(220%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.dot-3').addClass('cuurent-act-card');
+        jQuery('.dot-1, .dot-2, .dot-4, .dot-5').removeClass('cuurent-act-card');
+        jQuery('.card-3-nxt, .card-3-pre').css({"display":"block"});
+        jQuery('.card-1-nxt, .card-1-disable, .card-2-pre, .card-2-nxt, .card-4-pre, .card-4-nxt, .card-5-pre, .card-5-disable').css({"display":"none"});
+    });
+    jQuery('.dot-4, .card-3-nxt, .card-5-pre').click(function(){
+        jQuery('.slider-card-1').css({"transform":"translateX(-330%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.slider-card-2').css({"transform":"translateX(-220%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.slider-card-3').css({"transform":"translateX(-110%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.slider-card-4').css({"transform":"translateX(0%)"}).addClass('cuurent-act-card-border');
+        jQuery('.slider-card-5').css({"transform":"translateX(110%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.dot-4').addClass('cuurent-act-card');
+        jQuery('.dot-1, .dot-2, .dot-3, .dot-5').removeClass('cuurent-act-card');
+        jQuery('.card-4-nxt, .card-4-pre').css({"display":"block"});
+        jQuery('.card-1-nxt, .card-1-disable, .card-2-pre, .card-2-nxt, .card-3-pre, .card-3-nxt, .card-5-pre, .card-5-disable, .l2_u3_s1_slider .card-4-nxt').css({"display":"none"});
+      jQuery('.l2_u3_s1_slider .card-5-disable').css({"display":"block"});
+    });
+    jQuery('.dot-5, .card-4-nxt').click(function(){
+        jQuery('.slider-card-1').css({"transform":"translateX(-440%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.slider-card-2').css({"transform":"translateX(-330%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.slider-card-3').css({"transform":"translateX(-220%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.slider-card-4').css({"transform":"translateX(-110%)"}).removeClass('cuurent-act-card-border');
+        jQuery('.slider-card-5').css({"transform":"translateX(0%)"}).addClass('cuurent-act-card-border');
+        jQuery('.dot-5').addClass('cuurent-act-card');
+        jQuery('.dot-1, .dot-2, .dot-3, .dot-4').removeClass('cuurent-act-card');
+        jQuery('.card-5-pre, .card-5-disable').css({"display":"block"});
+        jQuery('.card-1-nxt, .card-1-disable, .card-2-pre, .card-2-nxt, .card-3-pre, .card-3-nxt, .card-4-nxt, .card-4-pre').css({"display":"none"});
+    });
+    });
+    
+    

@@ -1,5 +1,5 @@
 /* Please ❤ this if you like it! */
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
 
@@ -534,7 +534,7 @@ body.dark .logo img {
 	background-color: #f3fcff;
 	;
 	padding: 2em;
-	font-family: 'Antic Didone', serif;
+	font-family: 'Montserrat', sans-serif;
 	border-radius: .4em;
 	margin: auto;
 	max-width: 1000px;
@@ -579,7 +579,8 @@ margin-top: 1em;
 		padding: 2em;
 		background-color: #f3fcffc4;
 		border-radius: .4em;
-		color: #000;
+		color: #000;	  font-family: 'Montserrat', sans-serif;
+
 	}
 
 	
@@ -777,6 +778,8 @@ margin-top: 1em;
     margin: auto;
     max-width: 1000px;
 	padding: 2em;
+	font-family: 'Montserrat', sans-serif;
+
   }
 
   .column {
