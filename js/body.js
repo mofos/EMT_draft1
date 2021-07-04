@@ -110,7 +110,7 @@
         jQuery('.dot-3').addClass('cuurent-act-card');
         jQuery('.dot-1, .dot-2, .dot-4, .dot-5').removeClass('cuurent-act-card');
         jQuery('.card-3-nxt, .card-3-pre').css({"display":"block"});
-        jQuery('.card-1-nxt, .card-1-disable, .card-2-pre, .card-2-nxt').css({"display":"none"});
+        jQuery('.card-1-nxt, .card-1-disable, .card-2-pre, .card-2-nxt, .card-4-pre, .card-4-nxt, .card-5-pre, .card-5-disable').css({"display":"none"});
     });
  
     });

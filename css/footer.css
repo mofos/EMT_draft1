@@ -168,3 +168,7 @@
 .h61{
     color: rgb(253, 135, 0);
 }
+
+.maps{
+  max-width: 500px;
+}
