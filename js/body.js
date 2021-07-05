@@ -119,9 +119,9 @@
 const buttonLeft = document.getElementById('slideLeft');
 
     buttonRight.onclick = function () {
-      document.getElementById('scrollcontainer').scrollLeft += 400;
+      document.getElementById('scrollcontainer').scrollLeft += 310;
 	  console.log('1')
     };
     buttonLeft.onclick = function () {
-      document.getElementById('scrollcontainer').scrollLeft -= 400;
+      document.getElementById('scrollcontainer').scrollLeft -= 310;
     };

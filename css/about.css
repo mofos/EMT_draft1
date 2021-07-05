@@ -30,7 +30,7 @@ display: block;
 
 
 .Content{
-	padding: 1em;
+	padding: 6em;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -49,7 +49,8 @@ display: block;
 }
 
 .imageright{
-	
+
+	padding: 2em;
 	
 }
 
@@ -200,7 +201,7 @@ display: block;
 	
 	.slider-box h6 {
 		font-size: 14px;
-		font-family: "Open Sans", sans-serif;
+		font-family: 'Montserrat', sans-serif;
 		font-weight: 600;
 		margin: 0px 0px 20px 0px;
 		padding: 0px;
@@ -213,7 +214,7 @@ display: block;
 }
   .slider-box p {
 	  font-size: 17px;
-	  font-family: "Open Sans", sans-serif;
+	  font-family: 'Montserrat', sans-serif;
 	  font-weight: 600;
 	  line-height: 30px;
 	  margin: 0px 0px 0px;
@@ -313,6 +314,10 @@ display: block;
 	padding-bottom: 100px;
 }
 
+.scrollgallery h4 p{
+	font-family: 'Montserrat', sans-serif;
+}
+
 .scrollcontainer {
 	scroll-behavior: smooth;
 	margin-bottom: -17px;
@@ -346,7 +351,7 @@ display: block;
 
 @media only screen and (max-width: 768px) {
 	.homeSliderCard {
-		min-width: 370px;
+		min-width: 300px;
 		max-width: 370px;
 	}
 	
@@ -363,6 +368,60 @@ display: block;
 		position: relative;
 	}
 }
+
+
+.container1 {
+	padding: 1em;
+	margin: 0 auto;
+	width: 500px;
+  }
+  
+  
+  
+  .gallery-wrap {
+	display: flex;
+	flex-direction: row;
+	width: 600px;
+	height: 70vh;
+  }
+  
+  .item11 {
+	flex: 1;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: none;
+	transition: flex 0.8s ease;
+  }
+  .item11:hover {
+	flex: 7;
+  }
+  
+  .item-1 {
+	background-image: url("https://images.unsplash.com/photo-1499198116522-4a6235013d63?auto=format&fit=crop&w=1233&q=80");
+  }
+  
+  .item-2 {
+	background-image: url("https://images.unsplash.com/photo-1492760864391-753aaae87234?auto=format&fit=crop&w=1336&q=80");
+  }
+  
+  .item-3 {
+	background-image: url("https://images.unsplash.com/photo-1503631285924-e1544dce8b28?auto=format&fit=crop&w=1234&q=80");
+  }
+  
+  .item-4 {
+	background-image: url("https://images.unsplash.com/photo-1510425463958-dcced28da480?auto=format&fit=crop&w=1352&q=80");
+  }
+  
+  .item-5 {
+	background-image: url("https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1234&q=80");
+  }
+
+  .font h4 p{
+	font-family: 'Montserrat', sans-serif;
+}
+  
+ 
 
 @media screen and (max-width: 500px) {
 	.Aboutuscard{
@@ -389,4 +448,22 @@ display: block;
 		  right: 10%;
 		  
 		}
+
+		
+		.gallery-wrap {
+			display: flex;
+			flex-direction: row;
+			width: 300px;
+			height: 500px;
+		  }
+
+		  
+  .item-1 {
+	display: none;
+  }
+  
+  .item-5 {
+	display: none;
+  }
+  
   }
