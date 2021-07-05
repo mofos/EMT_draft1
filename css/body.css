@@ -577,6 +577,7 @@ margin-top: 1em;
 
 
     }
+
     
 
 
@@ -693,6 +694,8 @@ margin-top: 1em;
         /* background-color: black;   */
 
     }
+
+	
 	.para{
 		flex: 90%;
 		margin: auto;
@@ -701,7 +704,7 @@ margin-top: 1em;
 	}
 
 	.explore__photo {
-		width: 150%;
+		width: 100%;
 		border-radius: 2px;
 		position: static;
 		z-index: -10;
@@ -750,6 +753,13 @@ margin-top: 1em;
 
 }
 
+.intro2{
+	display: block;
+	flex-direction: row;
+	padding: 1em;
+	max-width: none;
+	margin: auto;
+}
 
     
 
