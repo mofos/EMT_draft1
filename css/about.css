@@ -24,8 +24,22 @@ span {
 
   .Aboutuscard{
 padding-top: 10em;
-
+display: block;
   }
+.Aboutuscardmobile{
+	display: none;
+}
+
+@media screen and (max-width: 500px) {
+	.Aboutuscard{
+		padding-top: 10em;
+		display: none;
+		  }
+		.Aboutuscardmobile{
+			display: block;
+		}
+  }
+
 
   .Content{
 	  padding: 1em;
@@ -275,7 +289,7 @@ padding-top: 10em;
   }
   .card-1-disable {
 	left: 85px;
-	background: #819e009c;
+	background: #819e0000;
   }
   .card-5-disable {
 	right: 85px;
