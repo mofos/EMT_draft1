@@ -1,0 +1,17 @@
+.row > div {
+    padding: 0 4px !important;
+  }
+  
+  img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  .gallery{
+      padding-top: 15em;
+      padding-bottom: 5em;
+  }
+  .gallery h1{
+      color: black;
+      text-align: center;
+  }
