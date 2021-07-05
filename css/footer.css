@@ -169,6 +169,10 @@
     color: rgb(253, 135, 0);
 }
 
-.maps{
-  max-width: 500px;
+
+@media only screen and (max-width: 768px) {
+  .maps{
+    max-width: 300px;
+  }
+
 }

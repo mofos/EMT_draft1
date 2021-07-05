@@ -115,4 +115,13 @@
  
     });
     
-    
+    const buttonRight = document.getElementById('slideRight');
+const buttonLeft = document.getElementById('slideLeft');
+
+    buttonRight.onclick = function () {
+      document.getElementById('scrollcontainer').scrollLeft += 400;
+	  console.log('1')
+    };
+    buttonLeft.onclick = function () {
+      document.getElementById('scrollcontainer').scrollLeft -= 400;
+    };

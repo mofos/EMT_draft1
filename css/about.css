@@ -2,16 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 span {
-	background: #fff;
-	padding: 1rem;
-	border-radius: 7px;
-	box-shadow: 0 2px 6px -2px rgba(0, 0, 0, 0.42);
+	
 	
 	display: grid;
-	grid-gap: 0.5rem;
+	
   }
   span b {
-	background-color: #f4f4ff;
+	background-color: #f8feff;
 	border-radius: 4px;
 	display: grid;
 	place-items: center;
@@ -30,6 +27,343 @@ display: block;
 	display: none;
 }
 
+
+
+.Content{
+	padding: 1em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.Content h1{
+	font-size: 3em;
+	color: black;
+}
+
+
+.Content p{
+	color: black;
+}
+
+.Content h3{
+	color: rgb(255, 166, 0);
+}
+
+.imageright{
+	
+	
+}
+
+.width{
+	
+}
+
+
+.main_slide_block {
+	width: 100%;
+	
+	
+}
+
+.slider-div {
+	width: 70%;
+	margin: 0px auto;
+	border-radius: 5px;
+	padding: 40px 0px;
+	overflow: hidden;
+	position: relative;
+	background-color: #aaaaaa;
+}
+
+.slider-div:before {
+	content: "";
+	width: 1%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: linear-gradient(
+		to right,
+		rgba(0, 0, 0, 0.1),
+		rgba(255, 255, 255, 0)
+		);
+		z-index: 5;
+	}
+	.slider-div:after {
+		content: "";
+		width: 1%;
+		height: 100%;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		background: linear-gradient(
+			to left,
+			rgba(0, 0, 0, 0.1),
+			rgba(255, 255, 255, 0)
+			);
+			z-index: 5;
+		}
+		
+		.dot-1,
+		.dot-2,
+		.dot-3 {
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			background: #c5c7ca;
+			position: absolute;
+			bottom: 15px;
+			cursor: pointer;
+		}
+		
+		.dot-1 {
+			left: 46%;
+		}
+		.dot-2 {
+			left: 48%;
+  }
+  .dot-3 {
+	  left: 50%;
+	}
+	
+	
+	.slider-box {
+		width: 70%;
+		height: 500px;
+		border-radius: 5px;
+		position: relative;
+		margin: 0px auto;
+
+	}
+	
+	.slider-box h2{
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		
+	}
+	.slider-box p{
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		
+	}
+	.slider-card-1 {
+		width: 100%;
+		height: 100%;
+		background: #fff;
+		padding: 1em;
+		border-radius: 5px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		border-bottom: 6px solid #ff7f504f;
+		transition: 0.5s all ease;
+		box-shadow: 0px 5px 15px 0px rgba(51, 59, 69, 0.14);
+		-webkit-font-smoothing: subpixel-antialiased;
+		margin: auto;
+		
+	}
+	.slider-card-1 img{
+		
+		
+	}
+	.slider-card-2 {
+		width: 100%;
+		height: 100%;
+		background: #fff;
+		padding: 1em;
+		border-radius: 5px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		border-bottom: 6px solid #ff7f504f;
+		transform: translateX(110%);
+		transition: 0.5s all ease;
+		box-shadow: 0px 5px 15px 0px rgba(51, 59, 69, 0.14);
+		-webkit-font-smoothing: subpixel-antialiased;
+		margin: auto;
+	}
+	.slider-card-3 {
+		width: 100%;
+		height: 100%;
+		background: #fff;
+		padding: 1em;
+		border-radius: 5px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		border-bottom: 6px solid #ff7f504f;
+		transform: translateX(220%);
+		transition: 0.5s all ease;
+		box-shadow: 0px 5px 15px 0px rgba(51, 59, 69, 0.14);
+		-webkit-font-smoothing: subpixel-antialiased;
+	}
+	
+	
+	.slider-box h6 {
+		font-size: 14px;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 600;
+		margin: 0px 0px 20px 0px;
+		padding: 0px;
+		text-transform: uppercase;
+		color: #000000;
+	}
+	.slider-box h6 img {
+	margin-right: 10px;
+	margin-top: -3px;
+}
+  .slider-box p {
+	  font-size: 17px;
+	  font-family: "Open Sans", sans-serif;
+	  font-weight: 600;
+	  line-height: 30px;
+	  margin: 0px 0px 0px;
+	  color: #000000;
+	}
+	
+	.slider-box img{
+		
+		margin: auto;
+		
+	}
+	.card-1-disable,
+	.card-1-nxt,
+	.card-2-pre,
+	.card-2-nxt,
+	.card-3-pre,
+	.card-3-nxt
+	{
+		width: 39px;
+		height: 39px;
+		text-align: center;
+		border-radius: 2%;
+		background: #ffd424;
+		position: absolute;
+		top: 45%;
+		z-index: 99;
+		cursor: pointer;
+		border-color: #000000;
+		
+		
+	}
+	
+	.card-1-nxt,
+	.card-2-nxt,
+	.card-3-nxt
+	{
+		padding: 11px 16px;
+	}
+	.card-1-disable,
+  .card-2-pre,
+  .card-3-pre
+  {
+	  padding: 11px 5px;
+	}
+	
+	.card-1-disable .fa,
+	.card-1-nxt .fa,
+	.card-2-pre .fa,
+	.card-2-nxt .fa,
+	.card-3-pre .fa,
+	.card-3-nxt .fa
+	{
+		color: #fff;
+	}
+	.card-2-pre,
+	.card-3-pre
+	{
+		left: 85px;
+		box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.2);
+	}
+	.card-1-nxt,
+	.card-2-nxt
+	{
+		right: 85px;
+		box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.2);
+	}
+	.card-1-disable {
+		left: 85px;
+		background: #819e0000;
+	}
+	.card-5-disable {
+		right: 85px;
+		background: #819e009c;
+	}
+	.card-2-pre,
+	.card-2-nxt,
+	.card-3-pre,
+	.card-3-nxt
+	{
+		display: none;
+	}
+	
+	.cuurent-act-card {
+		background:/*#31d317*/ #ff9100;
+	}
+	.cuurent-act-card-border {
+		border-bottom: 6px solid #ffd000;
+	}
+	
+	.homeSliderCard {
+		min-width: 375px;
+		max-width: 375px;
+	}
+	
+	.scrollgallery{
+		padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.scrollcontainer {
+	scroll-behavior: smooth;
+	margin-bottom: -17px;
+	min-height: 55px;
+	overflow: hidden;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.sliderBtnNav {
+	position: absolute;
+	top: 120px;
+	bottom: 0px;
+}
+
+.rightBtnNav {
+	right: 0;
+	margin-right: -5px;
+}
+
+.leftBtnNav {
+	margin-left: -20px;
+	z-index: 10000;
+}
+
+.btn-outline-secondary {
+	background-color: #ffd424;
+	border-color: #00000000;
+	color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+	.homeSliderCard {
+		min-width: 370px;
+		max-width: 370px;
+	}
+	
+	.sliderBtnNav {
+		top: 170px;
+	}
+	
+	.slider-div {
+		width: 100%;
+		margin: 0px auto;
+		border-radius: 5px;
+		padding: 40px 0px;
+		overflow: hidden;
+		position: relative;
+	}
+}
+
 @media screen and (max-width: 500px) {
 	.Aboutuscard{
 		padding-top: 10em;
@@ -37,276 +371,22 @@ display: block;
 		  }
 		.Aboutuscardmobile{
 			display: block;
+
+		}
+		.Aboutuscardmobile img{
+			width: 20em;
+		}
+
+		.card-2-pre,
+		.card-3-pre
+		{
+		  left: 10%;
+		 
+		}
+		.card-1-nxt,
+		.card-2-nxt
+	   {
+		  right: 10%;
+		  
 		}
   }
-
-
-  .Content{
-	  padding: 1em;
-	  font-family: 'Montserrat', sans-serif;
-  }
-
-  .Content h1{
-	  font-size: 3em;
-	  color: black;
-  }
-
-
-  .Content p{
-	  color: black;
-  }
-  
-  .Content h3{
-	  color: rgb(255, 166, 0);
-  }
-
-  .imageright{
-	
-
-  }
-
-  .width{
-	 
-  }
-
-  
-.main_slide_block {
-	width: 100%;
-	
-	
-  }
-  
-  .slider-div {
-	width: 100%;
-	margin: 0px auto;
-	border-radius: 5px;
-	padding: 40px 0px;
-	overflow: hidden;
-	position: relative;
-  }
-  
-  .slider-div:before {
-	content: "";
-	width: 20%;
-	height: 100%;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	background: linear-gradient(
-	  to right,
-	  rgba(255, 127, 80, 0.1),
-	  rgba(255, 255, 255, 0)
-	);
-	z-index: 5;
-  }
-  .slider-div:after {
-	content: "";
-	width: 20%;
-	height: 100%;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	background: linear-gradient(
-	  to left,
-	  rgba(255, 127, 80, 0.1),
-	  rgba(255, 255, 255, 0)
-	);
-	z-index: 5;
-  }
-  
-  .dot-1,
-  .dot-2,
-  .dot-3 {
-	width: 8px;
-	height: 8px;
-	border-radius: 50%;
-	background: #c5c7ca;
-	position: absolute;
-	bottom: 15px;
-	cursor: pointer;
-  }
-  
-  .dot-1 {
-	left: 46%;
-  }
-  .dot-2 {
-	left: 48%;
-  }
-  .dot-3 {
-	left: 50%;
-  }
- 
-  
-  .slider-box {
-	width: 70%;
-	height: 500px;
-	border-radius: 5px;
-	position: relative;
-	margin: 0px auto;
-  }
-
-  .slider-box h2{
-	  text-align: center;
-	  font-family: 'Montserrat', sans-serif;
-
-  }
-  .slider-box p{
-	  text-align: center;
-	  font-family: 'Montserrat', sans-serif;
-
-  }
-  .slider-card-1 {
-	width: 100%;
-	height: 100%;
-	background: #fff;
-	padding: 1em;
-	border-radius: 5px;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border-bottom: 6px solid #ff7f504f;
-	transition: 0.5s all ease;
-	box-shadow: 0px 5px 15px 0px rgba(51, 59, 69, 0.14);
-	-webkit-font-smoothing: subpixel-antialiased;
-	margin: auto;
-
-  }
-  .slider-card-1 img{
-
-
-  }
-  .slider-card-2 {
-	width: 100%;
-	height: 100%;
-	background: #fff;
-	padding: 1em;
-	border-radius: 5px;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border-bottom: 6px solid #ff7f504f;
-	transform: translateX(110%);
-	transition: 0.5s all ease;
-	box-shadow: 0px 5px 15px 0px rgba(51, 59, 69, 0.14);
-	-webkit-font-smoothing: subpixel-antialiased;
-	margin: auto;
-  }
-  .slider-card-3 {
-	width: 100%;
-	height: 100%;
-	background: #fff;
-	padding: 1em;
-	border-radius: 5px;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border-bottom: 6px solid #ff7f504f;
-	transform: translateX(220%);
-	transition: 0.5s all ease;
-	box-shadow: 0px 5px 15px 0px rgba(51, 59, 69, 0.14);
-	-webkit-font-smoothing: subpixel-antialiased;
-  }
-  
-  
-  .slider-box h6 {
-	font-size: 14px;
-	font-family: "Open Sans", sans-serif;
-	font-weight: 600;
-	margin: 0px 0px 20px 0px;
-	padding: 0px;
-	text-transform: uppercase;
-	color: #000000;
-  }
-  .slider-box h6 img {
-	margin-right: 10px;
-	margin-top: -3px;
-  }
-  .slider-box p {
-	font-size: 17px;
-	font-family: "Open Sans", sans-serif;
-	font-weight: 600;
-	line-height: 30px;
-	margin: 0px 0px 0px;
-	color: #000000;
-  }
-  
-  .slider-box img{
-	  
-	  margin: auto;
-	  
-  }
-  .card-1-disable,
-  .card-1-nxt,
-  .card-2-pre,
-  .card-2-nxt,
-  .card-3-pre,
-  .card-3-nxt
-  {
-	width: 39px;
-	height: 39px;
-	text-align: center;
-	border-radius: 50%;
-	background: #9dff00;
-	position: absolute;
-	top: 45%;
-	z-index: 99;
-	cursor: pointer;
-  }
-  
-  .card-1-nxt,
-  .card-2-nxt,
-  .card-3-nxt
-   {
-	padding: 11px 16px;
-  }
-  .card-1-disable,
-  .card-2-pre,
-  .card-3-pre
-  {
-	padding: 11px 5px;
-  }
-  
-  .card-1-disable .fa,
-  .card-1-nxt .fa,
-  .card-2-pre .fa,
-  .card-2-nxt .fa,
-  .card-3-pre .fa,
-  .card-3-nxt .fa
-  {
-	color: #fff;
-  }
-  .card-2-pre,
-  .card-3-pre
-  {
-	left: 85px;
-	box-shadow: 0px 12px 24px 0px rgba(83, 191, 66, 0.2);
-  }
-  .card-1-nxt,
-  .card-2-nxt
- {
-	right: 85px;
-	box-shadow: 0px 12px 24px 0px rgba(83, 191, 66, 0.2);
-  }
-  .card-1-disable {
-	left: 85px;
-	background: #819e0000;
-  }
-  .card-5-disable {
-	right: 85px;
-	background: #819e009c;
-  }
-  .card-2-pre,
-  .card-2-nxt,
-  .card-3-pre,
-  .card-3-nxt
- {
-	display: none;
-  }
-  
-  .cuurent-act-card {
-	background:/*#31d317*/ #ff9100;
-  }
-  .cuurent-act-card-border {
-	border-bottom: 6px solid #ffd000;
-  }
-  
