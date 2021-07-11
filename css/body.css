@@ -169,6 +169,7 @@ h1{
 	font-weight: 700;
 	color: #ffffff;
 	text-align: left;
+	font-family: 'Didot';
 }
 p{
 	text-align: left;
@@ -534,7 +535,8 @@ body.dark .logo img {
 	}
 
 	.headinghero{
-		color: #000;
+		color:  #26386A;
+		font-weight: 400;
 		font-size: 2em;
 	}
 
@@ -812,7 +814,15 @@ position: relative;
 
 	.card svg {
 		padding: .5em;
-		margin-bottom: 10px;
+		max-height:120px;
+	}
+
+	.card h3, h6{
+		font-family: 'ProximaNova';
+		color:#26386A;
+		font-weight: 600;
+		
+
 	}
 	
 	.sevicesection{
@@ -892,15 +902,5 @@ position: relative;
 		margin-bottom: 20px;
 	  }
   
-	  .card {
-		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-		  padding: 16px;
-		  text-align: center;
-		  justify-content: center;
-		  background-color: #ffffff;
-		  border-radius: 1em;
-		  margin: auto;
-		  font-family: 'ProximaNova';
-		  height: 320px;
-		}
+	  
 	}

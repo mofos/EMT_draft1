@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Didot';
+    src: local('Didot Regular'), local('Didot-Regular'),
+        url('Didot.woff2') format('woff2'),
+        url('Didot.woff') format('woff'),
+        url('Didot.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
