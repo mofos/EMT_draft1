@@ -1,4 +1,5 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
@@ -177,6 +178,8 @@ p{
 	transform: translate(0);
     transition: all 300ms linear;
     transition-delay: 1700ms;
+	font-family: ProximaNova;
+	font-weight: 400;
 }
 body.hero-anime p{
 	opacity: 0;
@@ -516,9 +519,8 @@ body.dark .logo img {
 .intro1{
     
 	background-color: #f3fcff;
-	;
+	
 	padding: 2em;
-	font-family: 'Montserrat', sans-serif;
 	border-radius: .4em;
 	margin: auto;
 	max-width: 1000px;
@@ -563,7 +565,8 @@ margin-top: 1em;
 		padding: 2em;
 		background-color: #f3fcffc4;
 		border-radius: .4em;
-		color: #000;	  font-family: 'Montserrat', sans-serif;
+		color: #000;	
+		  font-family: 'ProximaNova';
 
 	}
 
@@ -770,7 +773,7 @@ margin-top: 1em;
     margin: auto;
     max-width: 1000px;
 	padding: 2em;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'ProximaNova';
 
   }
 
@@ -793,48 +796,111 @@ position: relative;
   }
   
   /* Responsive columns */
-  @media screen and (max-width: 700px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
   
   /* Style the counter cards */
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;
-	justify-content: center;
-    background-color: #ffffff;
-    border-radius: 1em;
-	margin: auto;
-  }
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	  padding: 16px;
+	  text-align: center;
+	  justify-content: center;
+	  background-color: #ffffff;
+	  border-radius: 1em;
+	  margin: auto;
+	  font-family: 'ProximaNova';
+	  height: 400px;
+	}
 
-  .sevicesection{
-
-	color: #26386A;
-
-
-  }
-  .line{
-	height: 3px;
-	width: 100px;
-	background-color: rgb(255, 218, 8);
-
-  }
-
-  .para1{
-	  background-color: #f3fcff;
-	  flex: 50%;
-	  padding: 1em;
-  }
-
-  .ship{
-	  background-image: url("../assets/intro1.png");
-	  background-size: cover;
-	  height: 600px;
-  }
+	.card svg {
+		padding: .5em;
+		margin-bottom: 10px;
+	}
+	
+	.sevicesection{
+		
+		color: #26386A;
+		
+		
+	}
+	.line{
+		height: 3px;
+		width: 100px;
+		background-color: rgb(255, 218, 8);
+		
+	}
+	
+	.para1{
+		background-color: #f3fcff;
+		flex: 50%;
+		padding: 1em;
+	}
+	
+	.ship{
+		background-image: url("../assets/intro1.png");
+		background-size: cover;
+		height: 600px;
+	}
+	
+	
 
   
+  .post {
+	display: flex;
+	text-decoration: none;
+	
+	
+	position: relative;
+	padding: 2rem;
+	
+	background-color: #fff;
+	cursor: pointer;
+  }
+  .post:before {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #26386A;
+	;
+	transform-origin: 0 bottom 0;
+	transform: scaleY(0);
+	transition: 0.4s ease-out;
+	border-radius: 1em;
+  }
+  .post:hover .post-title {
+	color: #FFCB08;
+	;
+  }
+  .post:hover:before {
+	transform: scaleY(1);
+  }
+  
+  .post-title {
+	position: relative;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 1.333;
+	transition: 0.4s ease-out;
+  }
+	
+	@media screen and (max-width: 700px) {
+	  .column {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	  }
+  
+	  .card {
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		  padding: 16px;
+		  text-align: center;
+		  justify-content: center;
+		  background-color: #ffffff;
+		  border-radius: 1em;
+		  margin: auto;
+		  font-family: 'ProximaNova';
+		  height: 320px;
+		}
+	}
