@@ -894,7 +894,9 @@ position: relative;
 	line-height: 1.333;
 	transition: 0.4s ease-out;
   }
-	
+	.links{
+		font-family:'ProximaNova' ;
+	}
 	@media screen and (max-width: 700px) {
 	  .column {
 		width: 100%;
