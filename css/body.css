@@ -653,7 +653,7 @@ margin-top: 1em;
 
 
 .explore__photo-1:hover {
-    outline: 1rem solid #26386A;
+    outline: .3rem solid #0044ffa2;
     transform: scale(1.2) translateY(-.5rem);
     box-shadow: 0 2.5rem 4rem rgba(black, .5);
     z-index: 20;
@@ -664,7 +664,7 @@ margin-top: 1em;
 
 
 .explore__photo-2:hover { 
-    outline: 1rem solid #26386A;
+    outline: .3rem solid #0044ff94;
     transform: scale(1.2) translateY(-.5rem);
     box-shadow: 0 2.5rem 4rem rgba(black, .5);
     z-index: 20;
@@ -675,7 +675,7 @@ margin-top: 1em;
 
 
 .explore__photo-3:hover {
-    outline: 1rem solid #26386A;
+    outline: .3rem solid #0044ff94;
     transform: scale(1.2) tran slateY(-.5rem);
     box-shadow: 0 2.5rem 4rem rgba(black, .5);
     z-index: 20;
@@ -893,6 +893,7 @@ position: relative;
 	font-weight: 700;
 	line-height: 1.333;
 	transition: 0.4s ease-out;
+	color: #26386A;
   }
 	.links{
 		font-family:'ProximaNova' ;
