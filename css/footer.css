@@ -73,8 +73,8 @@ max-width: 300px;
   line-height:40px;
   margin-left:6px;
   margin-right:0;
-  border-radius:100%;
-  background-color:#33353d
+  border-radius: .5em;
+  background-color:#d3ac00
 }
 .copyright-text
 {
@@ -113,13 +113,13 @@ max-width: 300px;
 {
   margin-right:15px;
   text-transform:uppercase;
-  color:#96a2b2;
+  color:#b2ad96;
   font-weight:700;
   font-size:13px
 }
 .social-icons a{
   background-color:#eceeef;
-  color:#818a91;
+  color:#918f81;
   font-size:16px;
   display:inline-block;
   line-height:44px;
@@ -154,7 +154,7 @@ max-width: 300px;
 }
 .social-icons a.linkedin:hover
 {
-  background-color:#007bb6
+  background-color:#00eeff
 }
 .social-icons a.dribbble:hover
 {
