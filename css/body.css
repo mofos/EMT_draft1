@@ -164,12 +164,14 @@ body{
 	
 }
 h1{
-	font-size: 80px;
+	font-size: 75px;
 	line-height: 1.2;
-	font-weight: 700;
+	font-weight: 400;
 	color: #ffffff;
 	text-align: left;
-	font-family: 'Didot';
+	font-family: 'Didot'; 
+	padding: 1em;
+
 }
 p{
 	text-align: left;
@@ -443,6 +445,8 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media (max-width: 767px) { 
 	h1{
 		font-size: 58px;
+		padding: 0em;
+
 	}
 	.nav-item:after{
 		display: none;
