@@ -87,7 +87,7 @@
         jQuery('.slider-card-5').css({"transform":"translateX(440%)"}).removeClass('cuurent-act-card-border');
         jQuery('.dot-1').addClass('cuurent-act-card');
         jQuery('.dot-2, .dot-3, .dot-4, .dot-5').removeClass('cuurent-act-card');
-        jQuery('.card-1-disable, .card-1-nxt').css({"display":"block"});
+        jQuery('.card-1-disable, .card-1-nxt ,.card-2-nxt, .card-2-pre').css({"display":"block"});
         jQuery('.card-2-pre, .card-2-nxt, .card-3-pre, .card-3-nxt, .card-4-pre, .card-4-nxt, .card-5-pre, .card-5-disable').css({"display":"none"});
     });
     jQuery('.dot-2, .card-3-pre, .card-1-nxt').click(function(){

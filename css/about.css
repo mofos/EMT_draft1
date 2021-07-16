@@ -165,6 +165,7 @@ display: block;
 		box-shadow: 0px 5px 15px 0px rgba(51, 59, 69, 0.14);
 		-webkit-font-smoothing: subpixel-antialiased;
 		margin: auto;
+		transform: translateX(-110%);
 		
 	}
 	.slider-card-1 img{
@@ -186,6 +187,7 @@ display: block;
 		box-shadow: 0px 5px 15px 0px rgba(51, 59, 69, 0.14);
 		-webkit-font-smoothing: subpixel-antialiased;
 		margin: auto;
+		transform: translateX(0%);
 	}
 	.slider-card-3 {
 		width: 100%;
@@ -201,6 +203,8 @@ display: block;
 		transition: 0.5s all ease;
 		box-shadow: 0px 5px 15px 0px rgba(51, 59, 69, 0.14);
 		-webkit-font-smoothing: subpixel-antialiased;
+		transform: translateX(110%);
+
 	}
 	
 	
@@ -219,8 +223,8 @@ display: block;
 }
   .slider-box p {
 	  font-size: 17px;
-	  font-family: 'Montserrat', sans-serif;
-	  font-weight: 600;
+	  font-family: ProximaNova;
+	  font-weight: 400;
 	  line-height: 30px;
 	  margin: 0px 0px 0px;
 	  color: #000000;
@@ -403,23 +407,23 @@ display: block;
   }
   
   .item-1 {
-	background-image: url("../assets/4.png");
+	background-image: url("../assets/cute-indian-child-reading-his-book_75648-596.jpg");
   }
   
   .item-2 {
-	background-image: url("../assets/5.png");
+	background-image: url("../assets/school-children-dressed-uniform-have-fun-play-schoolyard_8353-6640.jpg");
   }
   
   .item-3 {
-	background-image: url("../assets/6.png");
-  }
-  
-  .item-4 {
-	background-image: url("../assets/port.png");
+	background-image: url("../assets/group-indian-children-running_73899-1291.jpg");
   }
   
   .item-5 {
-	background-image: url("../assets/ship2.png");
+	background-image: url("../assets/gettyimages-1241277811-170667a_6946400_835x547-m.jpg");
+  }
+  
+  .item-4 {
+	background-image: url("../assets/Light-bulb-in-village-house-1.png");
   }
 
   .font h4 p{
